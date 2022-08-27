@@ -28,3 +28,30 @@ break
     let thirdAnswer = window.prompt(`After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?`)
 }
 
+switch (thirdAnswer){
+    case "stay":
+    let fourthAnswer = window.prompt (`You live happily amongst the cats for the rest of your days.`)
+break
+    case "spread the word":
+    let fourthAnswer = window.prompt (`After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.`)
+break
+    case "ladder":
+    let fourthAnswer = window.prompt (`After ascending a few feet up the ladder, one of its rungs snaps, and you comedically fall through each of the rungs below. Sheepish, you return home.`)
+break
+    case "staircase":
+    let fourthAnswer = window.prompt (`After ascending the staircase, you discover a shiny blue stone, which you take home and cherish forever.`)
+break
+    case "stay":
+    let fourthAnswer = window.prompt (`You and the dragon have an uplifting conversation about local politics and become lifelong friends.`)
+break 
+    case "run":
+    let fourthAnswer = window.prompt (`Quickly, you run back to the cave's entrance. Sheepish, you return home.`)
+break
+    case "draw it":
+    let fourthAnswer = window.prompt (`You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disappointed, but over time, discover joy in sharing it with your friends and family, recounting the story of your days as a sorcerer with the aid of the sketch.`)
+break
+    case "pick it":
+    let fourthAnswer = window.promtp (`You pick the flower and bring it home, and all marvel at its brilliance. However, over time it fades and eventually crumbles to dust.`)
+break
+}
+
